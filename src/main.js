@@ -2,7 +2,10 @@ import {createApp} from "vue";
 
 import App from '@/App.vue';
 import router from "@/router.js";
-
+// import styles
+import "@/styles/tailwind.css";
+import "@/styles/font.css";
+import "@/styles/awesome.css";
 
 const app = createApp(App);
 
