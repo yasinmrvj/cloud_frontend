@@ -32,7 +32,7 @@ import SliderComponent from "@/components/SliderComponent.vue";
         <div class="absolute bottom-8 text-center flex flex-col gap-2 text-xs">
           <p class="text-black/70">گروه برنامه نویسی فرا ارتباط</p>
           <p class="text-black/70">درصورت بروز هرگونه مشکل با پشتیبانی تماس بگیرید.</p>
-          <p class="text-black/70">051-31668185</p>
+          <p class="text-black/70 tracking-[2px]">051-31668185</p>
 
         </div>
       </div>
