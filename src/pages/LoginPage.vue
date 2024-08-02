@@ -31,9 +31,10 @@ async function handleSubmit(values) {
 
 <template>
   <div class="w-screen min-h-screen bg-[#F5F5F5] flex justify-center items-center">
-    <section class="w-[950px] h-[654px] bg-white rounded-xl flex overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.04)]">
+    <section
+        class="px-12 h-[500px] lg:p-0 lg:w-[950px] lg:h-[654px] bg-white rounded-xl flex overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.04)]">
       <!--   form   -->
-      <div class="w-6/12 flex flex-col gap-6 items-center justify-center relative">
+      <div class="w-full lg:w-6/12 flex flex-col gap-6 items-center justify-center relative">
         <h1 class="text-xl font-[500]">پنل کاربری سرویس های ابری</h1>
         <!--  form  -->
         <Form @submit="handleSubmit" :validation-schema="schema" v-slot="{errors}">
@@ -63,14 +64,14 @@ async function handleSubmit(values) {
         </Form>
         <!--  team  -->
         <div class="absolute bottom-8 text-center flex flex-col gap-2 text-xs">
-          <p class="text-black/70">گروه برنامه نویسی فرا ارتباط</p>
+          <p class="text-black/70">تیم توسعه سرویس های ابری فرا ارتباط</p>
           <p class="text-black/70">درصورت بروز هرگونه مشکل با پشتیبانی تماس بگیرید.</p>
           <p class="text-black/70 tracking-[2px]">051-31668185</p>
 
         </div>
       </div>
       <!--   slider   -->
-      <div class="w-6/12">
+      <div class="w-6/12 hidden lg:block">
         <SliderComponent/>
       </div>
     </section>
